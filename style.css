@@ -1,0 +1,52 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://i.stack.imgur.com/7T3lm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: 11px;
+    margin-left:50% ;
+    text-align: center;
+
+
+
+}
+#div1,
+#div2,
+#div3,
+#div4,
+#div5,
+#div6,
+#div7,
+#div8,
+#div9{
+    border: 4px solid rgb(236, 236, 235);
+    width:200px;
+    height: 130px;
+    float: left;
+    color: white;
+    font-size: 90px;
+   
+
+}
+#div1,
+#div2,
+#div3{
+    border-top: none;
+}
+#div1,
+#div4,
+#div7{
+    border-left: none;
+}
+#div3,
+#div6,
+#div9{
+    border-right: none;
+}
+#div7,
+#div8,
+#div9{
+    border-bottom: none;
+}
